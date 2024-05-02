@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url("img/1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+
+  /* background-color: antiquewhite; */
+}
+
+.navbar {
+  color: rgb(0, 0, 0);
+  font-family: "Madimi One", sans-serif;
+  font-size: 350%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  background-color: rgb(255, 255, 255);
+  width: 42rem;
+  height: 2rem;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 120%;
+  border-radius: 10px;
+  border-color: #000;
+  padding: 0.2rem 1rem;
+}
+.bar:focus {
+  outline: none;
+}
+
+.temprature-card {
+  backdrop-filter: blur(20px);
+  border: 2px solid rgba(9, 9, 9, 0.638);
+  /* box-shadow: 6px 2px 16px -1px rgb(0, 0, 0); */
+  width: 500px;
+  margin: 2rem auto;
+  background-color: #ffffff00;
+  color: #000;
+  border-radius: 10px;
+  padding: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 120%;
+}
+
+.temprature-header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.temparature-image {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.temprature-value {
+  font-family: "Arimo", sans-serif;
+  font-size: 3rem;
+  font-weight: 800px;
+}
+
+.temprature-mid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.temprature-footer {
+  text-align: left;
+  padding-top: 1.6rem;
+  width: fit-content;
+  margin: 0 auto;
+  line-height: 1.6rem;
+}
